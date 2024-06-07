@@ -1,0 +1,13 @@
+.active {
+  color: #1f3bb3;
+}
+
+.rotate-forward {
+  transform: rotate(180deg);
+  transition: transform 0.3s ease;
+}
+
+.rotate-backward {
+  transform: rotate(0deg);
+  transition: transform 0.3s ease;
+}
